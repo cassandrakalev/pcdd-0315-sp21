@@ -21,10 +21,11 @@ h1 {
   font-size: 25px;
   }
   
-  title {
+h1 {
   
   color: orangered;
   size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
 /*

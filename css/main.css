@@ -26,7 +26,15 @@
  * Customize the background color to match your design.
  */
 
- h1 {
+ title {
+  display: block;
+  height: 1px;
+  border: 0;
+  margin: 1em 0;
+  padding: 0;
+ }
+   
+h1 {
   display: block;
   height: 1px;
   border: 0;

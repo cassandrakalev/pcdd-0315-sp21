@@ -1,82 +1,96 @@
-<!doctype html>
-<html class="no-js" lang="">
 
-<head>
-  <meta charset="utf-8">
-  <title>Cafe Picasso Design System</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <style type="text/css">
-    @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
-    @font-face {
-        font-family:'Rajdhani', sans-serif;
-    }
-    
-</style> 
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
+ header{
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  box-sizing: inherit;
+  font-family: 'Rajdhani', sans-serif;
+}
 
 
-</head>
+navigation {
+    font-family: 'Rajdhani', sans-serif;  
+}
+h1 {
+  margin: 0.67em 0;
+  font-family: 'Rajdhani', sans-serif;
+}
 
-<body>
-  <main>
-    <div class="header">
-        <p>Version 1.0</p>
-        <p>Updated April 15, 2021</p>
-        </div>
-      <div class="header">
-        
-          <h1 class="header">H1 headline</h1>
-          <h2 class="header">H2 headline</h2>
-          <h3 class="header">H3 headline</h3>
-          <h4 class="header">H4 headline</h4>
-          <h5 class="header">H5 headline</h5>
-          <h6 class="header">H6 headline</h6>
+h2 {
+  margin: 0.67em 0;
+  font-family: 'Rajdhani', sans-serif;
+}
 
-      </div>
+h3 {
+  margin: 0.67em 0;
+  font-family: 'Rajdhani', sans-serif;
+}
 
-          <section class="section">
-          <p class="section-label">Colors</p>
-          <div class="primary-hue color-brand-pink"><div>NMDS brand pink</div><div>#E62F88<br></div></div>
-          <div class="primary-hue color-brand-blue"><div>NMDS brand blue</div><div>#EC473E<br></div></div>
-          <div class="secondary-hue color-brand-scarlet"><div>NMDS brand scarlet</div><div>#00B6E0<br></div></div>
-          <div class="secondary-hue color-brand-emerald"><div>NMDS brand emerald</div><div>#00B09B<br></div></div>
-          <div class="secondary-hue color-brand-yellow"><div>NMDS brand yellow</div><div>#FEB33F<br></div></div>
-          <div class="accent-hue color-brand-lime"><div>NMDS brand lime</div><div>#C7D545<br></div></div>
-          <div class="secondary-hue color-gray900"><div>NMDS gray 900</div><div>#FEB33F<br></div></div>
-          <div class="secondary-hue color-gray800"><div>NMDS gray 800</div><div>#FEB33F<br></div></div>
-          <div class="secondary-hue color-gray300 text-dark"><div>NMDS gray 300</div><div>#FEB33F<br></div></div>
-          <div class="secondary-hue color-gray200 text-dark"><div>NMDS gray 200</div><div>#FEB33F<br></div></div>
-          <div class="secondary-hue color-gray100 text-dark"><div>NMDS gray 100</div><div>#FEB33F<br></div></div>
+h4 {
+  margin: 0.67em 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+h5 {
+    margin: 0.67em 0;
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  h6 {
+    margin: 0.67em 0;
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
 
 
-        </section>
-      </div>
-    </div>
-    </main>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
 
-</html>
+textarea {
+  resize: vertical;
+}
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+

@@ -29,7 +29,7 @@
  title {
   display: block;
   height: 1px;
-  border: 0;
+  border: 20;
   margin: 1em 0;
   padding: 20;
   font-family:"Abril Display SemiBold";
@@ -39,7 +39,7 @@
 h1 {
   display: block;
   height: 1px;
-  border: 0;
+  border: 20;
   margin: 1em 0;
   padding: 20;
   font-family:"Abril Display SemiBold";
@@ -48,7 +48,7 @@ h1 {
 h2 {
   display: block;
   height: 1px;
-  border: 0;
+  border: 20;
   margin: 1em 0;
   padding: 20;
   font-family:"Abril Display SemiBold";
@@ -58,7 +58,7 @@ h2 {
 h3 {
   display: block;
   height: 1px;
-  border: 0;
+  border: 20;
   margin: 1em 0;
   padding: 20;
   font-family:"Abril Display SemiBold";
@@ -67,7 +67,7 @@ h3 {
 h4 {
   display: block;
   height: 1px;
-  border: 0;
+  border: 20;
   margin: 1em 0;
   padding: 20;
   font-family:"Abril Display SemiBold";

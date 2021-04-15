@@ -72,7 +72,7 @@ h1 {
  * A better looking default horizontal rule
  */
 
-hr {
+h1 {
   display: block;
   height: 1px;
   border: 0;

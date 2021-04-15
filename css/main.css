@@ -3,6 +3,9 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  box-sizing: inherit;
 }
 
 ::-moz-selection {
@@ -73,3 +76,4 @@ sr-only {
   white-space: inherit;
   width: auto;
 }
+

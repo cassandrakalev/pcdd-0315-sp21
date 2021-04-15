@@ -26,17 +26,7 @@
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-h1 {
+ h1 {
   display: block;
   height: 1px;
   border: 0;
@@ -71,6 +61,22 @@ h4 {
   margin: 1em 0;
   padding: 0;
 }
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ 
 
 /*
  * Remove the gap between audio, canvas, iframes,

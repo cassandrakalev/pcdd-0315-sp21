@@ -6,8 +6,7 @@ html {
   display: grid;
   grid-template-columns: 3fr 7fr;
   box-sizing: inherit;
-  font-family: font-family: 'Abril Fatface', cursive;
-}
+  font-family: 'Rajdhani', sans-serif;}
 
 ::-moz-selection {
   background: #b3d4fc;

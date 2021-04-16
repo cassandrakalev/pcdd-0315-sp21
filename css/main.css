@@ -1,107 +1,88 @@
-head {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-    display: grid;
-    grid-template-columns: 3fr 7fr;
-    box-sizing: inherit;
-    font-family: 'Rajdhani', sans-serif;
-  }
 
-  section-label {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-    display: grid;
-    grid-template-columns: 3fr 7fr;
-    box-sizing: inherit;
-    font-family: 'Rajdhani', sans-serif;
-  }
-  
-  
-  body {
-      color: #222;
-      font-size: 1em;
-      line-height: 1.4;
-      display: grid;
-      grid-template-columns: 3fr 7fr;
-      box-sizing: inherit;
-      font-family: 'Rajdhani', sans-serif;
-    }
-    
-  h1 {
-      
-    display: block;
-    font-size: var(--text-xxxl);
-    margin-bottom: 1.25rem;
-    font-family: 'Rajdhani', sans-serif;
-  }
-  
-  h2 {
-    margin: 0.67em 0;
-    font-family: 'Rajdhani', sans-serif;
-  }
-  
-  h3 {
-    margin: 0.67em 0;
-    font-family: 'Rajdhani', sans-serif;
-  }
-  
-  h4 {
-    margin: 0.67em 0;
-    font-family: 'Rajdhani', sans-serif;
-  }
-  
-  
-    
-  audio,
-  canvas,
-  iframe,
-  img,
-  svg,
-  video {
-    vertical-align: middle;
-  }
-  
-  
-  fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-  }
-  
-  
-  textarea {
-    resize: vertical;
-  }
-  
-  .hidden,
-  [hidden] {
-    display: none !important;
-  }
-  
-  sr-only {
-    border: 0;
-    clip: rect(0, 0, 0, 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    /* 1 */
-  }
-  
-  .sr-only.focusable:active,
-  .sr-only.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    white-space: inherit;
-    width: auto;
-  }
-  
-  
+
+ header{
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  box-sizing: inherit;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+
+h1 {
+  margin: 0.67em 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+h2 {
+  margin: 0.67em 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+h3 {
+  margin: 0.67em 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+h4 {
+  margin: 0.67em 0;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+textarea {
+  resize: vertical;
+}
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+

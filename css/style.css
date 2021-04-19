@@ -4,6 +4,7 @@ h1 {
   font-size:var(--text-xxxl);
   margin-bottom:1.25rem;
   font-family:"Lobster", cursive;
+  font-size: 64px;
 }
 h2 {
   font-size:var(--text-xxl);

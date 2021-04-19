@@ -116,7 +116,7 @@ head {
 .primary-hue {
   display: flex;
   padding:3rem 1rem;
-  color:#ffffff;
+  color:blue;
   font-family: 'Work Sans';
 }
 
@@ -127,7 +127,7 @@ head {
 .secondary-hue {
   display: flex;
   padding:1.5rem 1rem;
-  color:#ffffff;
+  color:#8ef0e8;
   font-family: 'Work Sans';
 }
 

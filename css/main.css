@@ -28,6 +28,8 @@ h5 {
 
 h6 {
   font-size:var(--text-sm);
+  margin-bottom:.5rem;
+
 }
 
 p, li {

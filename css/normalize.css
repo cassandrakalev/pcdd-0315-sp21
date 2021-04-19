@@ -16,26 +16,31 @@ head {
     font-size:var(--text-xxl);
     margin-bottom:1.25rem;
     font-family:"Lobster", cursive;
+    font-size: 48px;
+
   
   }
   h3 {
     font-size:var(--text-xl);
     margin-bottom:1.25rem;
     font-family:"Lobster", cursive;
-  
+    font-size: 36px;
+
   
   }
   h4 {
     font-size:var(--text-lg);
     margin-bottom:1.25rem;
     font-family:"Lobster", cursive;
-  
-  
+    font-size: 24px;
   }
+
   h5 {
     font-size:var(--text-md);
     margin-bottom:1.25rem;
     font-family:"Lobster", cursive;
+    font-size: 12px;
+
   
   }
   
@@ -43,12 +48,13 @@ head {
     font-size:var(--text-sm);
     margin-bottom:1.25rem;
     font-family:"Lobster", cursive;
-  
+    font-size: 8px;
+
   
   }
   
   p, li {
-    font-size: 1rem;
+    font-size: 12px;
     font-family: "adelle-sans", sans-serif;
     font-style: normal;
     font-weight: 100;

@@ -96,9 +96,9 @@ head {
   
   .secondary-hue {
     display: flex;
-    padding:1.5rem 1rem;
-    color:#ffffff;
-    font-family: 'Work Sans';
+    padding:3rem 1rem;
+    color:#dd5b10;
+    font-family: "adelle-sans", sans-serif;
   }
   
   .secondary-hue > div {

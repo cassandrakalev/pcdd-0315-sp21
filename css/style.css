@@ -116,8 +116,8 @@ head {
 .primary-hue {
   display: flex;
   padding:3rem 1rem;
-  color:#ffffff;
-  font-family: 'Work Sans';
+  color:blue;
+  font-family:"Lobster", cursive;
 }
 
 .primary-hue > div {
@@ -127,8 +127,8 @@ head {
 .secondary-hue {
   display: flex;
   padding:1.5rem 1rem;
-  color:#ffffff;
-  font-family: 'Work Sans';
+  color:#8ef0e8;
+  font-family:"Lobster", cursive;
 }
 
 .secondary-hue > div {
@@ -138,8 +138,8 @@ head {
 .neutral-hue {
   display: flex;
   padding:1.5rem 1rem;
-  color:#ffffff;
-  font-family: 'Work Sans';
+  color:#920909;
+  font-family:"Lobster", cursive;
 }
 
 .neutral-hue > div {
@@ -149,8 +149,8 @@ head {
 .accent-hue {
   display: flex;
   padding:.5rem 1rem;
-  color:#ffffff;
-  font-family: 'Work Sans';
+  color:#8ba4b4;
+  font-family:"Lobster", cursive;
 }
 
 .accent-hue > div {

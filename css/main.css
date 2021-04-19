@@ -90,11 +90,12 @@ head {
     font-family: "adelle-sans", sans-serif;
   }
   
-  .primary-hue color-brand-blue-2 {
+  .secondary-hue color-brand-blue-2 {
     display: flex;
     padding:3rem 1rem;
     color:#8bdeec;
     font-family: "adelle-sans", sans-serif;
+
 
   }
   

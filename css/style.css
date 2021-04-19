@@ -68,76 +68,103 @@ head {
   /* Color samples */
   
   
-    .primary-hue {
-  color: orange   
- }
+  .color-brand-pink {
+    background-color: var(--nmds-brand-pink);
+  }
+  .color-brand-scarlet {
+    background-color: var(--nmds-brand-scarlet);
+  }
+  .color-brand-blue {
+    background-color: var(--nmds-brand-blue);
+  }
+  .color-brand-emerald {
+    background-color: var(--nmds-brand-emerald);
+  }
+  .color-brand-lime {
+    background-color: var(--nmds-brand-lime);
+  }
+  .color-brand-yellow {
+    background-color: var(--nmds-brand-yellow);
+  }
+
+  .color-gray900 {
+    background-color: var(--nmds-gray900);
+  }
+
+  .color-gray800 {
+    background-color: var(--nmds-gray800);
+  }
 
 
-    .color-brand-blue {
-      background-color: var(--nmds-brand-scarlet);
-    }
-    .color-brand-orange {
-      background-color: var(--nmds-brand-blue);
-    }
-    .color-brand-burnt-red {
-      background-color: var(--nmds-brand-emerald);
-    }
-   
-  
-  
-  .primary-hue {
-    display: flex;
-    padding:3rem 1rem;
-    color:orange;
-    font-family: "adelle-sans", sans-serif;
+  .color-gray300 {
+    background-color: var(--nmds-gray300);
   }
-  
-  .primary-hue > div {
-    width:33%;
+
+
+  .color-gray200 {
+    background-color: var(--nmds-gray200);
   }
-  
-  .secondary-hue {
-    display: flex;
-    padding:1.5rem 1rem;
-    color:#ffffff;
-    font-family: 'Work Sans';
+
+
+  .color-gray100 {
+    background-color: var(--nmds-gray100);
   }
-  
-  .secondary-hue > div {
-    width:33%;
-  }
-  
-  .neutral-hue {
-    display: flex;
-    padding:1.5rem 1rem;
-    color:#ffffff;
-    font-family: 'Work Sans';
-  }
-  
-  .neutral-hue > div {
-    width:33%;
-  }
-  
-  .accent-hue {
-    display: flex;
-    padding:.5rem 1rem;
-    color:#ffffff;
-    font-family: 'Work Sans';
-  }
-  
-  .accent-hue > div {
-    width:33%;
-  }
-  
-  .text-dark {
-    color:var(--text-color);
-  }
-  
-  
-  
-  
-  
-  img {
-    width:100%;
-  }
-  
+
+
+
+
+.primary-hue {
+  display: flex;
+  padding:3rem 1rem;
+  color:#ffffff;
+  font-family: 'Work Sans';
+}
+
+.primary-hue > div {
+  width:33%;
+}
+
+.secondary-hue {
+  display: flex;
+  padding:1.5rem 1rem;
+  color:#ffffff;
+  font-family: 'Work Sans';
+}
+
+.secondary-hue > div {
+  width:33%;
+}
+
+.neutral-hue {
+  display: flex;
+  padding:1.5rem 1rem;
+  color:#ffffff;
+  font-family: 'Work Sans';
+}
+
+.neutral-hue > div {
+  width:33%;
+}
+
+.accent-hue {
+  display: flex;
+  padding:.5rem 1rem;
+  color:#ffffff;
+  font-family: 'Work Sans';
+}
+
+.accent-hue > div {
+  width:33%;
+}
+
+.text-dark {
+  color:var(--text-color);
+}
+
+
+
+
+
+img {
+  width:100%;
+}

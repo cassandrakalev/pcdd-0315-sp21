@@ -68,10 +68,10 @@ head {
   /* Color samples */
   
   
-    .primary-hue-color-brand-blue {
+    .color-brand-blue {
       background-color: var(--nmds-brand-pink);
     }
-    .secondary-hue-color-brand-blue-2 {
+    .color-brand-blue {
       background-color: var(--nmds-brand-scarlet);
     }
     .color-brand-orange {
@@ -83,27 +83,22 @@ head {
    
   
   
-  .primary-hue color-brand-blue {
+  .primary-hue {
     display: flex;
     padding:3rem 1rem;
-    color:#105d8a;
+    color:#dd5b10;
     font-family: "adelle-sans", sans-serif;
   }
   
-  .secondary-hue color-brand-blue {
-    display: flex;
-    padding:3rem 1rem;
-    color:#8bdeec;
-    font-family: "adelle-sans", sans-serif;
-
-
+  .primary-hue > div {
+    width:33%;
   }
   
   .secondary-hue {
     display: flex;
     padding:1.5rem 1rem;
-    color:#910d0d;
-    font-family: "adelle-sans", sans-serif;
+    color:#ffffff;
+    font-family: 'Work Sans';
   }
   
   .secondary-hue > div {
@@ -114,7 +109,7 @@ head {
     display: flex;
     padding:1.5rem 1rem;
     color:#ffffff;
-    font-family: "adelle-sans", sans-serif;
+    font-family: 'Work Sans';
   }
   
   .neutral-hue > div {
@@ -125,7 +120,7 @@ head {
     display: flex;
     padding:.5rem 1rem;
     color:#ffffff;
-    font-family: "adelle-sans", sans-serif;
+    font-family: 'Work Sans';
   }
   
   .accent-hue > div {

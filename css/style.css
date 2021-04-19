@@ -86,13 +86,13 @@ head {
   .primary-hue {
     display: flex;
     padding:3rem 1rem;
-    color:#dd5b10;
+    color:#105d8a;
     font-family: "adelle-sans", sans-serif;
   }
   
   .primary-hue > div {
     width:33%;
-    color:#9c1c0b;
+    color:#8bdeec;
 
   }
   

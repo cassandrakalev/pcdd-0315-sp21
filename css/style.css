@@ -100,27 +100,17 @@ head {
   
 
   .color-brand-maroon {
-    background-color: maroon;
+    background-color: rgb(167, 30, 34);
   }
 
-  .color-gray800 {
-    background-color: var(--nmds-gray800);
+  .color-brand-gray{
+    background-color: rgb(163, 162, 162);
   }
 
-
-  .color-gray300 {
-    background-color: var(--nmds-gray300);
+  .color-brand-dark-gray{
+    background-color: dark rgb(88, 88, 88)
   }
 
-
-  .color-gray200 {
-    background-color: var(--nmds-gray200);
-  }
-
-
-  .color-gray100 {
-    background-color: var(--nmds-gray100);
-  }
 
 
 

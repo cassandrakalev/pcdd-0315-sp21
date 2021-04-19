@@ -67,32 +67,21 @@ head {
   
   /* Color samples */
   
+
   
-    .color-brand-blue {
-      background-color: var(--nmds-brand-pink);
-    }
-    .color-brand-blue {
-      background-color: var(--nmds-brand-scarlet);
-    }
-    .color-brand-orange {
-      background-color: var(--nmds-brand-blue);
-    }
-    .color-brand-burnt-red {
-      background-color: var(--nmds-brand-emerald);
-    }
-   
-  
-  
-  .primary-hue {
+  .primary-hue color-brand-blue {
     display: flex;
     padding:3rem 1rem;
     color:#105d8a;
     font-family: "adelle-sans", sans-serif;
   }
   
-  .primary-hue > div {
-    width:33%;
+  .primary-hue color-brand-blue-2 {
+    display: flex;
+    padding:3rem 1rem;
     color:#8bdeec;
+    font-family: "adelle-sans", sans-serif;
+
 
   }
   

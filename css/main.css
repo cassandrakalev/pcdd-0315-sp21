@@ -67,7 +67,21 @@ head {
   
   /* Color samples */
   
-
+  
+    .color-brand-blue {
+      background-color: var(--nmds-brand-pink);
+    }
+    .color-brand-blue {
+      background-color: var(--nmds-brand-scarlet);
+    }
+    .color-brand-orange {
+      background-color: var(--nmds-brand-blue);
+    }
+    .color-brand-burnt-red {
+      background-color: var(--nmds-brand-emerald);
+    }
+   
+  
   
   .primary-hue color-brand-blue {
     display: flex;

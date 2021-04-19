@@ -67,7 +67,12 @@ head {
   
   /* Color samples */
   
+  .color-one{
+
+    background-color: lightskyblue;
+
   
+  }
   .color-brand-blue {
     background-color: blue;
   }

@@ -68,10 +68,10 @@ head {
   /* Color samples */
   
   
-    .color-brand-blue {
+    .primary-hue-color-brand-blue {
       background-color: var(--nmds-brand-pink);
     }
-    .color-brand-blue {
+    .secondary-hue-color-brand-blue-2 {
       background-color: var(--nmds-brand-scarlet);
     }
     .color-brand-orange {
@@ -90,7 +90,7 @@ head {
     font-family: "adelle-sans", sans-serif;
   }
   
-  .secondary-hue color-brand-blue-2 {
+  .secondary-hue color-brand-blue {
     display: flex;
     padding:3rem 1rem;
     color:#8bdeec;

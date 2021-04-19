@@ -97,7 +97,7 @@ head {
   }
 
   .color-brand-dark-gray{
-    background-color: dark rgb(88, 88, 88)
+    background-color: dark rgb(88, 88, 88);
   }
 
 
@@ -115,38 +115,7 @@ head {
   width:33%;
 }
 
-.secondary-hue {
-  display: flex;
-  padding:1.5rem 1rem;
-  color:#eb1c1c rgb (154, 187, 204);
-  font-family: "adelle-sans", sans-serif;
-}
 
-.secondary-hue > div {
-  width:33%;
-}
-
-.neutral-hue {
-  display: flex;
-  padding:1.5rem 1rem;
-  color:#be4e1a;
-  font-family: "adelle-sans", sans-serif;
-}
-
-.neutral-hue > div {
-  width:33%;
-}
-
-.accent-hue {
-  display: flex;
-  padding:.5rem 1rem;
-  color:#ffffff;
-  font-family: "adelle-sans", sans-serif;
-}
-
-.accent-hue > div {
-  width:33%;
-}
 
 .text-dark {
   color:var(--text-color);

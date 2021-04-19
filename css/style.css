@@ -67,28 +67,18 @@ head {
   
   /* Color samples */
   
-  .color-one{
 
-    background-color: lightskyblue;
 
-  
+  .color-light-blue {
+    background-color: rgb(154, 187, 204);
   }
 
-  .color-2{
-    background-color: lightsalmon;
+  .color-brand--blue {
+    background-color: rgb(154, 187, 204);
   }
 
-
-  .color-brand-blue {
-    background-color: rgb(33, 51, 99);
-  }
-
-  .color-brand-light-blue {
-    background-color: rgb(87, 117, 201);
-  }
-
-  .color-brand-dark-blue {
-    background-color: rgb(9, 25, 71);
+  .color-brand-regular-blue {
+    background-color: rgb(12, 91, 122);
   }
 
   .color-brand-orange {
@@ -97,7 +87,6 @@ head {
   .color-brand-burnt-red {
     background-color: rgb(247, 68, 55);
   }
-  
 
   .color-brand-maroon {
     background-color: rgb(167, 30, 34);

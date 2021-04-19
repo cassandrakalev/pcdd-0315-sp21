@@ -69,6 +69,16 @@ head {
   
   
   
+    .color-brand-blue {
+      background-color: var(--CP brand blue);
+    }
+    .color-brand-orange {
+      background-color: var(--nmds-brand-blue);
+    }
+    .color-brand-burnt-red {
+      background-color: var(--nmds-brand-emerald);
+    }
+   
   
   
   .primary-hue {

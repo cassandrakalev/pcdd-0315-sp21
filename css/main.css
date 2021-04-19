@@ -68,10 +68,11 @@ head {
   /* Color samples */
   
   
-    .color-brand-blue {
-    color: blue    }
+    .primary-hue {
+  color: orange   
+ }
 
-    
+
     .color-brand-blue {
       background-color: var(--nmds-brand-scarlet);
     }
@@ -87,7 +88,7 @@ head {
   .primary-hue {
     display: flex;
     padding:3rem 1rem;
-    color:#dd5b10;
+    color:orange;
     font-family: "adelle-sans", sans-serif;
   }
   
@@ -97,9 +98,9 @@ head {
   
   .secondary-hue {
     display: flex;
-    padding:3rem 1rem;
-    color:#dd5b10;
-    font-family: "adelle-sans", sans-serif;
+    padding:1.5rem 1rem;
+    color:#ffffff;
+    font-family: 'Work Sans';
   }
   
   .secondary-hue > div {

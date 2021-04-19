@@ -68,9 +68,11 @@ head {
   /* Color samples */
   
   
-    .color-brand-blue {
-      background-color: var(--nmds-brand-pink);
-    }
+    .primary-hue {
+  color: orange   
+ }
+
+
     .color-brand-blue {
       background-color: var(--nmds-brand-scarlet);
     }
@@ -86,7 +88,7 @@ head {
   .primary-hue {
     display: flex;
     padding:3rem 1rem;
-    color:#dd5b10;
+    color:orange;
     font-family: "adelle-sans", sans-serif;
   }
   

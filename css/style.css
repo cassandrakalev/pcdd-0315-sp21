@@ -39,7 +39,7 @@ head {
     font-size:var(--text-md);
     margin-bottom:1.25rem;
     font-family:"Lobster", cursive;
-    font-size: 12px;
+    font-size: 16px;
 
   
   }
@@ -48,7 +48,7 @@ head {
     font-size:var(--text-sm);
     margin-bottom:1.25rem;
     font-family:"Lobster", cursive;
-    font-size: 8px;
+    font-size: 12px;
 
   
   }
@@ -86,8 +86,8 @@ head {
   .primary-hue {
     display: flex;
     padding:3rem 1rem;
-    color:#c91818;
-    font-family: 'Work Sans';
+    color:#dd5b10;
+    font-family: "adelle-sans", sans-serif;
   }
   
   .primary-hue > div {

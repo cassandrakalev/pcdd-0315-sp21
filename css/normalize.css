@@ -86,8 +86,8 @@ head {
   .primary-hue {
     display: flex;
     padding:3rem 1rem;
-    color:#c91818;
-    font-family: 'Work Sans';
+    color:#dd5b10;
+    font-family: "adelle-sans", sans-serif;
   }
   
   .primary-hue > div {

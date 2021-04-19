@@ -66,29 +66,27 @@ head {
   
   
   /* Color samples */
-  
-  .color-one{
+  /* Color samples */
 
-    background-color: lightskyblue;
 
-  
+  .color-brand-pink {
+    background-color: var(--nmds-brand-pink);
   }
-
-  .color-2{
-    background-color: lightsalmon;
+  .color-brand-scarlet {
+    background-color: var(--nmds-brand-scarlet);
   }
-
-
   .color-brand-blue {
-    background-color: rgb(143, 161, 209);
+    background-color: var(--nmds-brand-blue);
   }
-  .color-brand-orange {
-    background-color: orange;
+  .color-brand-emerald {
+    background-color: var(--nmds-brand-emerald);
   }
-  .color-burnt-red {
-    background-color: rgb(250, 143, 135)
+  .color-brand-lime {
+    background-color: var(--nmds-brand-lime);
   }
-  
+  .color-brand-yellow {
+    background-color: var(--nmds-brand-yellow);
+  }
 
   .color-gray900 {
     background-color: var(--nmds-gray900);
@@ -119,8 +117,8 @@ head {
 .primary-hue {
   display: flex;
   padding:3rem 1rem;
-  color:rgb(100, 163, 223);
-  font-family: "adelle-sans", sans-serif;
+  color:#ffffff;
+  font-family: 'Work Sans';
 }
 
 .primary-hue > div {
@@ -130,8 +128,8 @@ head {
 .secondary-hue {
   display: flex;
   padding:1.5rem 1rem;
-  color:#72adc9 rgb (154, 187, 204);
-  font-family: "adelle-sans", sans-serif;
+  color:#ffffff;
+  font-family: 'Work Sans';
 }
 
 .secondary-hue > div {
@@ -141,8 +139,8 @@ head {
 .neutral-hue {
   display: flex;
   padding:1.5rem 1rem;
-  color:#be4e1a;
-  font-family: "adelle-sans", sans-serif;
+  color:#ffffff;
+  font-family: 'Work Sans';
 }
 
 .neutral-hue > div {
@@ -152,8 +150,8 @@ head {
 .accent-hue {
   display: flex;
   padding:.5rem 1rem;
-  color:#8ba4b4;
-  font-family: "adelle-sans", sans-serif;
+  color:#ffffff;
+  font-family: 'Work Sans';
 }
 
 .accent-hue > div {
@@ -171,3 +169,5 @@ head {
 img {
   width:100%;
 }
+
+

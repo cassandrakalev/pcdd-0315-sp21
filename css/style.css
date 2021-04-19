@@ -68,11 +68,11 @@ head {
   /* Color samples */
   
   
-  .color-brand-pink {
-    background-color: var(--nmds-brand-pink);
+  .color-brand-blue {
+    background-color: var(--CP-brand-blue);
   }
-  .color-brand-scarlet {
-    background-color: var(--nmds-brand-scarlet);
+  .color-brand-orange {
+    background-color: var(--CP-brand-orange);
   }
   .color-brand-blue {
     background-color: var(--nmds-brand-blue);
@@ -127,7 +127,7 @@ head {
 .secondary-hue {
   display: flex;
   padding:1.5rem 1rem;
-  color:#084066;
+  color:#bb1f1f;
   font-family: "adelle-sans", sans-serif;
 }
 
@@ -168,4 +168,3 @@ head {
 img {
   width:100%;
 }
-

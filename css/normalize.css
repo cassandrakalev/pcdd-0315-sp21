@@ -68,9 +68,7 @@ head {
   /* Color samples */
   
   
-    .color-brand-blue {
-      background-color: var(--nmds-brand-pink);
-    }
+  
     .color-brand-blue {
       background-color: var(--nmds-brand-scarlet);
     }

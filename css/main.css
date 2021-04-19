@@ -82,6 +82,15 @@ head {
   .color-brand-blue {
     background-color: rgb(33, 51, 99);
   }
+
+  .color-brand-light-blue {
+    background-color: rgb(87, 117, 201);
+  }
+
+  .color-brand-dark-blue {
+    background-color: rgb(9, 25, 71);
+  }
+
   .color-brand-orange {
     background-color: rgb(214, 87, 3);
   }

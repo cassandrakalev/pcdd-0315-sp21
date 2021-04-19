@@ -78,25 +78,17 @@ head {
     background-color: lightsalmon;
   }
 
-  
+
   .color-brand-blue {
     background-color: blue;
   }
   .color-brand-orange {
     background-color: orange;
   }
-  .color-brand-blue {
-    background-color: lightskyblue
+  .color-burnt-red {
+    background-color: rgb(250, 143, 135)
   }
-  .color-brand-emerald {
-    background-color: var(--nmds-brand-emerald);
-  }
-  .color-brand-lime {
-    background-color: var(--nmds-brand-lime);
-  }
-  .color-brand-yellow {
-    background-color: var(--nmds-brand-yellow);
-  }
+  
 
   .color-gray900 {
     background-color: var(--nmds-gray900);

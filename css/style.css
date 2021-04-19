@@ -3,39 +3,39 @@
 h1 {
   font-size:var(--text-xxxl);
   margin-bottom:1.25rem;
-  font-family:'Lobster'
+  font-family:"Lobster", cursive;
 }
 h2 {
   font-size:var(--text-xxl);
   margin-bottom:1.25rem;
-  font-family:'Lobster'
+  font-family:"Lobster", cursive;
 
 }
 h3 {
   font-size:var(--text-xl);
   margin-bottom:1.25rem;
-  font-family:'Lobster'
+  font-family:"Lobster", cursive;
 
 
 }
 h4 {
   font-size:var(--text-lg);
   margin-bottom:1.25rem;
-  font-family:'Lobster'
+  font-family:"Lobster", cursive;
 
 
 }
 h5 {
   font-size:var(--text-md);
   margin-bottom:1.25rem;
-  font-family:'Lobster'
+  font-family:"Lobster", cursive;
 
 }
 
 h6 {
   font-size:var(--text-sm);
   margin-bottom:1.25rem;
-  font-family:'Lobster'
+  font-family:"Lobster", cursive;
 
 
 }

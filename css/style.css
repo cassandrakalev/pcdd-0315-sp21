@@ -99,8 +99,8 @@ head {
   }
   
 
-  .color-gray900 {
-    background-color: var(--nmds-gray900);
+  .color-brand-maroon {
+    background-color: maroon;
   }
 
   .color-gray800 {

@@ -68,49 +68,19 @@ head {
   /* Color samples */
   
   
-    .color-brand-pink {
+    .color-brand-blue {
       background-color: var(--nmds-brand-pink);
     }
-    .color-brand-scarlet {
+    .color-brand-blue {
       background-color: var(--nmds-brand-scarlet);
     }
-    .color-brand-blue {
+    .color-brand-orange {
       background-color: var(--nmds-brand-blue);
     }
-    .color-brand-emerald {
+    .color-brand-burnt-red {
       background-color: var(--nmds-brand-emerald);
     }
-    .color-brand-lime {
-      background-color: var(--nmds-brand-lime);
-    }
-    .color-brand-yellow {
-      background-color: var(--nmds-brand-yellow);
-    }
-  
-    .color-gray900 {
-      background-color: var(--nmds-gray900);
-    }
-  
-    .color-gray800 {
-      background-color: var(--nmds-gray800);
-    }
-  
-  
-    .color-gray300 {
-      background-color: var(--nmds-gray300);
-    }
-  
-  
-    .color-gray200 {
-      background-color: var(--nmds-gray200);
-    }
-  
-  
-    .color-gray100 {
-      background-color: var(--nmds-gray100);
-    }
-  
-  
+   
   
   
   .primary-hue {

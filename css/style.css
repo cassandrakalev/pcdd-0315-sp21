@@ -92,7 +92,7 @@ head {
   }
 
   .color-brand-orange {
-    background-color: rgb(214, 87, 3);
+    background-color: rgb(238, 137, 69);
   }
   .color-burnt-red {
     background-color: rgb(250, 143, 135)
@@ -128,7 +128,7 @@ head {
 .primary-hue {
   display: flex;
   padding:3rem 1rem;
-  color:rgb(255, 255, 255);
+  color:rgb(97, 166, 212);
   font-family: "adelle-sans", sans-serif;
 }
 
@@ -139,7 +139,7 @@ head {
 .secondary-hue {
   display: flex;
   padding:1.5rem 1rem;
-  color:#ffffff rgb (154, 187, 204);
+  color:#eb1c1c rgb (154, 187, 204);
   font-family: "adelle-sans", sans-serif;
 }
 

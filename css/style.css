@@ -69,13 +69,13 @@ head {
   
   
   .color-brand-blue {
-    background-color: var(--CP-brand-blue);
+    background-color: blue;
   }
   .color-brand-orange {
-    background-color: var(--CP-brand-orange);
+    background-color: orange;
   }
   .color-brand-blue {
-    background-color: var(--nmds-brand-blue);
+    background-color: lightskyblue
   }
   .color-brand-emerald {
     background-color: var(--nmds-brand-emerald);

@@ -1,5 +1,11 @@
 
 /* Typography */
+
+head {
+font-size: 64px
+
+}
+
 h1 {
   font-size:var(--text-xxxl);
   margin-bottom:1.25rem;

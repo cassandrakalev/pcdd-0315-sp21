@@ -1,157 +1,165 @@
+
 /* Typography */
-h1 {
-  font-size:var(--text-xxxl);
-  margin-bottom:1.25rem;
-  font-family:"Lobster", cursive;
-  font-size: 64px;
-}
-h2 {
-  font-size:var(--text-xxl);
-  margin-bottom:1.25rem;
-  font-family:"Lobster", cursive;
 
-}
-h3 {
-  font-size:var(--text-xl);
-  margin-bottom:1.25rem;
-  font-family:"Lobster", cursive;
-
-
-}
-h4 {
-  font-size:var(--text-lg);
-  margin-bottom:1.25rem;
-  font-family:"Lobster", cursive;
-
-
-}
-h5 {
-  font-size:var(--text-md);
-  margin-bottom:1.25rem;
-  font-family:"Lobster", cursive;
-
-}
-
-h6 {
-  font-size:var(--text-sm);
-  margin-bottom:1.25rem;
-  font-family:"Lobster", cursive;
-
-
-}
-
-p, li {
-  font-size: 1rem;
-  font-family: "adelle-sans", sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  line-height: 1.5;
-  margin-top:var(--space-md);
-  margin-bottom:1.25rem;
-  color:var(--text-color);
-}
-
-
-/* Color samples */
-
-
-  .color-brand-pink {
-    background-color: var(--nmds-brand-pink);
+head {
+  font-size: 64px
+  
   }
-  .color-brand-scarlet {
-    background-color: var(--nmds-brand-scarlet);
+  
+  h1 {
+    font-size:var(--text-xxxl);
+    margin-bottom:1.25rem;
+    font-family:"Lobster", cursive;
+    font-size: 64px;
   }
-  .color-brand-blue {
-    background-color: var(--nmds-brand-blue);
+  h2 {
+    font-size:var(--text-xxl);
+    margin-bottom:1.25rem;
+    font-family:"Lobster", cursive;
+  
   }
-  .color-brand-emerald {
-    background-color: var(--nmds-brand-emerald);
+  h3 {
+    font-size:var(--text-xl);
+    margin-bottom:1.25rem;
+    font-family:"Lobster", cursive;
+  
+  
   }
-  .color-brand-lime {
-    background-color: var(--nmds-brand-lime);
+  h4 {
+    font-size:var(--text-lg);
+    margin-bottom:1.25rem;
+    font-family:"Lobster", cursive;
+  
+  
   }
-  .color-brand-yellow {
-    background-color: var(--nmds-brand-yellow);
+  h5 {
+    font-size:var(--text-md);
+    margin-bottom:1.25rem;
+    font-family:"Lobster", cursive;
+  
   }
-
-  .color-gray900 {
-    background-color: var(--nmds-gray900);
+  
+  h6 {
+    font-size:var(--text-sm);
+    margin-bottom:1.25rem;
+    font-family:"Lobster", cursive;
+  
+  
   }
-
-  .color-gray800 {
-    background-color: var(--nmds-gray800);
+  
+  p, li {
+    font-size: 1rem;
+    font-family: "adelle-sans", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.5;
+    margin-top:var(--space-md);
+    margin-bottom:1.25rem;
+    color:var(--text-color);
   }
-
-
-  .color-gray300 {
-    background-color: var(--nmds-gray300);
+  
+  
+  /* Color samples */
+  
+  
+    .color-brand-pink {
+      background-color: var(--nmds-brand-pink);
+    }
+    .color-brand-scarlet {
+      background-color: var(--nmds-brand-scarlet);
+    }
+    .color-brand-blue {
+      background-color: var(--nmds-brand-blue);
+    }
+    .color-brand-emerald {
+      background-color: var(--nmds-brand-emerald);
+    }
+    .color-brand-lime {
+      background-color: var(--nmds-brand-lime);
+    }
+    .color-brand-yellow {
+      background-color: var(--nmds-brand-yellow);
+    }
+  
+    .color-gray900 {
+      background-color: var(--nmds-gray900);
+    }
+  
+    .color-gray800 {
+      background-color: var(--nmds-gray800);
+    }
+  
+  
+    .color-gray300 {
+      background-color: var(--nmds-gray300);
+    }
+  
+  
+    .color-gray200 {
+      background-color: var(--nmds-gray200);
+    }
+  
+  
+    .color-gray100 {
+      background-color: var(--nmds-gray100);
+    }
+  
+  
+  
+  
+  .primary-hue {
+    display: flex;
+    padding:3rem 1rem;
+    color:#ffffff;
+    font-family: 'Work Sans';
   }
-
-
-  .color-gray200 {
-    background-color: var(--nmds-gray200);
+  
+  .primary-hue > div {
+    width:33%;
   }
-
-
-  .color-gray100 {
-    background-color: var(--nmds-gray100);
+  
+  .secondary-hue {
+    display: flex;
+    padding:1.5rem 1rem;
+    color:#ffffff;
+    font-family: 'Work Sans';
   }
-
-
-
-
-.primary-hue {
-  display: flex;
-  padding:3rem 1rem;
-  color:#ffffff;
-  font-family: 'Work Sans';
-}
-
-.primary-hue > div {
-  width:33%;
-}
-
-.secondary-hue {
-  display: flex;
-  padding:1.5rem 1rem;
-  color:#ffffff;
-  font-family: 'Work Sans';
-}
-
-.secondary-hue > div {
-  width:33%;
-}
-
-.neutral-hue {
-  display: flex;
-  padding:1.5rem 1rem;
-  color:#ffffff;
-  font-family: 'Work Sans';
-}
-
-.neutral-hue > div {
-  width:33%;
-}
-
-.accent-hue {
-  display: flex;
-  padding:.5rem 1rem;
-  color:#ffffff;
-  font-family: 'Work Sans';
-}
-
-.accent-hue > div {
-  width:33%;
-}
-
-.text-dark {
-  color:var(--text-color);
-}
-
-
-
-
-
-img {
-  width:100%;
-}
+  
+  .secondary-hue > div {
+    width:33%;
+  }
+  
+  .neutral-hue {
+    display: flex;
+    padding:1.5rem 1rem;
+    color:#ffffff;
+    font-family: 'Work Sans';
+  }
+  
+  .neutral-hue > div {
+    width:33%;
+  }
+  
+  .accent-hue {
+    display: flex;
+    padding:.5rem 1rem;
+    color:#ffffff;
+    font-family: 'Work Sans';
+  }
+  
+  .accent-hue > div {
+    width:33%;
+  }
+  
+  .text-dark {
+    color:var(--text-color);
+  }
+  
+  
+  
+  
+  
+  img {
+    width:100%;
+  }
+  

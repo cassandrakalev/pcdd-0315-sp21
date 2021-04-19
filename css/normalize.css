@@ -74,7 +74,7 @@ head {
   }
 
   .color-brand-blue {
-    background-color: rgb(154, 187, 204);
+    background-color: rgb(74, 112, 131);
   }
 
   .color-brand-regular-blue {
@@ -107,7 +107,7 @@ head {
 .primary-hue {
   display: flex;
   padding:3rem 1rem;
-  color:rgb(97, 166, 212);
+  color:rgb(255, 255, 255);
   font-family: "adelle-sans", sans-serif;
 }
 
@@ -140,7 +140,7 @@ head {
 .accent-hue {
   display: flex;
   padding:.5rem 1rem;
-  color:#8ba4b4;
+  color:#ffffff;
   font-family: "adelle-sans", sans-serif;
 }
 

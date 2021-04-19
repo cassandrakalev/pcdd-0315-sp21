@@ -117,7 +117,7 @@ head {
   display: flex;
   padding:3rem 1rem;
   color:blue;
-  font-family:"Lobster", cursive;
+  font-family: "adelle-sans", sans-serif;
 }
 
 .primary-hue > div {
@@ -128,7 +128,7 @@ head {
   display: flex;
   padding:1.5rem 1rem;
   color:#8ef0e8;
-  font-family:"Lobster", cursive;
+  font-family: "adelle-sans", sans-serif;
 }
 
 .secondary-hue > div {
@@ -139,7 +139,7 @@ head {
   display: flex;
   padding:1.5rem 1rem;
   color:#920909;
-  font-family:"Lobster", cursive;
+  font-family: "adelle-sans", sans-serif;
 }
 
 .neutral-hue > div {
@@ -150,7 +150,7 @@ head {
   display: flex;
   padding:.5rem 1rem;
   color:#8ba4b4;
-  font-family:"Lobster", cursive;
+  font-family: "adelle-sans", sans-serif;
 }
 
 .accent-hue > div {

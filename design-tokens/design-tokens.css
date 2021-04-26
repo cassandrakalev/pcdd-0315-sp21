@@ -1,0 +1,135 @@
+
+/* Typography */
+
+head {
+    font-size: 64px
+    
+    }
+    
+    h1 {
+      font-size:var(--text-xxxl);
+      margin-bottom:1.25rem;
+      font-family:"Lobster", cursive;
+      font-size: 64px;
+    }
+    h2 {
+      font-size:var(--text-xxl);
+      margin-bottom:1.25rem;
+      font-family:"Lobster", cursive;
+      font-size: 48px;
+  
+    
+    }
+    h3 {
+      font-size:var(--text-xl);
+      margin-bottom:1.25rem;
+      font-family:"Lobster", cursive;
+      font-size: 36px;
+  
+    
+    }
+    h4 {
+      font-size:var(--text-lg);
+      margin-bottom:1.25rem;
+      font-family:"Lobster", cursive;
+      font-size: 24px;
+    }
+  
+    h5 {
+      font-size:var(--text-md);
+      margin-bottom:1.25rem;
+      font-family:"Lobster", cursive;
+      font-size: 16px;
+  
+    
+    }
+    
+    h6 {
+      font-size:var(--text-sm);
+      margin-bottom:1.25rem;
+      font-family:"Lobster", cursive;
+      font-size: 12px;
+  
+    
+    }
+    
+    p, li {
+      font-size: 12px;
+      font-family: "adelle-sans", sans-serif;
+      font-style: normal;
+      font-weight: 100;
+      line-height: 1.5;
+      margin-top:var(--space-md);
+      margin-bottom:1.25rem;
+      color:var(--text-color);
+    }
+    
+    
+    /* Color samples */
+    
+  
+  
+    .color-brand-light-blue {
+      background-color: rgb(154, 187, 204);
+    }
+  
+    .color-brand-blue {
+      background-color: rgb(74, 112, 131);
+    }
+  
+    .color-brand-regular-blue {
+      background-color: rgb(12, 91, 122);
+    }
+  
+    .color-brand-orange {
+      background-color: rgb(238, 137, 69);
+    }
+    .color-brand-burnt-red {
+      background-color: rgb(247, 68, 55);
+    }
+  
+    .color-brand-maroon {
+      background-color: rgb(167, 30, 34);
+    }
+  
+    .color-brand-light-gray {
+      background-color: rgb(163, 162, 162);
+    }
+    
+    .color-brand-gray{
+      background-color: rgb(110, 108, 108);
+    }
+  
+    .color-brand-dark-gray{
+      background-color: rgb(88, 88, 88);
+    }
+  
+  
+  
+  
+  
+  .primary-hue {
+    display: flex;
+    padding:3rem 1rem;
+    color:rgb(255, 255, 255);
+    font-family: "adelle-sans", sans-serif;
+  }
+  
+  .primary-hue > div {
+    width:33%;
+  }
+  
+  
+  
+  .text-dark {
+    color:var(--text-color);
+  }
+  
+  
+  
+  
+  
+  img {
+    width:100%;
+  }
+  
